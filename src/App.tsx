@@ -39,19 +39,18 @@ function App() {
           <div className="flex flex-col md:flex-row items-center gap-12 max-w-6xl mx-auto">
             <div className="w-64 h-64 rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
               <img 
-                src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+                src="src\IMG-20221006-WA0001.jpg"
                 alt="Photo de profil" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="text-center md:text-left md:flex-1">
               <div className="animate-fade-in">
-                <h1 className="text-5xl font-bold mb-4">Chahrazad Dahmani</h1>
+                <h1 className="text-5xl font-bold mb-4">Chahrazad DAHMANI</h1>
                 <p className="text-2xl mb-8 text-blue-100">Étudiante en Bachelor Cybersécurité et IA</p>
                 <p className="text-lg mb-8 max-w-2xl text-blue-50">
-                  À l'ESEO, je recherche une alternance en Data et IA pour mon cycle d'ingénieur à partir de septembre 2025,
-                  en rythme 2 semaines en école / 2 semaines en entreprise afin de mettre en pratique mes compétences et
-                  approfondir mon expertise.
+                Passionnée d’informatique, j’ai développé une expertise en programmation, algorithmique et développement web. Actuellement en préparation pour intégrer un cycle ingénieur en apprentissage, je suis toujours en quête de nouveaux défis et d’apprentissage.
+                Bienvenue dans mon univers !
                 </p>
                 <div className="flex gap-6 justify-center md:justify-start">
                   <a 
@@ -163,6 +162,15 @@ function App() {
                     <div className="h-full w-[80%] bg-blue-600 rounded-full"></div>
                   </div>
                 </div>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>HTML/CSS</span>
+                    <span>95%</span>
+                  </div>
+                  <div className="h-2 bg-gray-200 rounded-full">
+                    <div className="h-full w-[95%] bg-blue-600 rounded-full"></div>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -172,10 +180,10 @@ function App() {
                 <div className="space-y-2">
                   <div className="flex justify-between">
                     <span>Français</span>
-                    <span>95%</span>
+                    <span>100%</span>
                   </div>
                   <div className="h-2 bg-gray-200 rounded-full">
-                    <div className="h-full w-[95%] bg-blue-600 rounded-full"></div>
+                    <div className="h-full w-[100%] bg-blue-600 rounded-full"></div>
                   </div>
                 </div>
                 <div className="space-y-2">
@@ -190,10 +198,10 @@ function App() {
                 <div className="space-y-2">
                   <div className="flex justify-between">
                     <span>Arabe</span>
-                    <span>95%</span>
+                    <span>100%</span>
                   </div>
                   <div className="h-2 bg-gray-200 rounded-full">
-                    <div className="h-full w-[95%] bg-blue-600 rounded-full"></div>
+                    <div className="h-full w-[100%] bg-blue-600 rounded-full"></div>
                   </div>
                 </div>
                 <div className="space-y-2">
