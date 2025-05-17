@@ -38,9 +38,9 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12 max-w-6xl mx-auto">
             <div className="w-64 h-64 rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
-              <img 
-                src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
-                alt="Photo de profil" 
+              <img
+                src="src\IMG-20221006-WA0001.jpg"
+                alt="Photo de profil"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -54,13 +54,13 @@ function App() {
                   approfondir mon expertise.
                 </p>
                 <div className="flex gap-6 justify-center md:justify-start">
-                  <a 
-                    href="#contact" 
+                  <a
+                    href="#contact"
                     className="bg-white text-blue-800 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors shadow-lg hover:shadow-xl"
                   >
                     Me contacter
                   </a>
-                  <a 
+                  <a
                     href="/cv.pdf"
                     className="flex items-center gap-2 bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white/10 transition-colors"
                     download
@@ -163,6 +163,42 @@ function App() {
                     <div className="h-full w-[80%] bg-blue-600 rounded-full"></div>
                   </div>
                 </div>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>Linux</span>
+                    <span>95%</span>
+                  </div>
+                  <div className="h-2 bg-gray-200 rounded-full">
+                    <div className="h-full w-[95%] bg-blue-600 rounded-full"></div>
+                  </div>
+                </div>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>Cybersécurité et IA</span>
+                    <span>50%</span>
+                  </div>
+                  <div className="h-2 bg-gray-200 rounded-full">
+                    <div className="h-full w-[50%] bg-blue-600 rounded-full"></div>
+                  </div>
+                </div>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>SQL</span>
+                    <span>85%</span>
+                  </div>
+                  <div className="h-2 bg-gray-200 rounded-full">
+                    <div className="h-full w-[85%] bg-blue-600 rounded-full"></div>
+                  </div>
+                </div>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>Assembleur</span>
+                    <span>75%</span>
+                  </div>
+                  <div className="h-2 bg-gray-200 rounded-full">
+                    <div className="h-full w-[75%] bg-blue-600 rounded-full"></div>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -172,7 +208,7 @@ function App() {
                 <div className="space-y-2">
                   <div className="flex justify-between">
                     <span>Français</span>
-                    <span>95%</span>
+                    <span>100%</span>
                   </div>
                   <div className="h-2 bg-gray-200 rounded-full">
                     <div className="h-full w-[95%] bg-blue-600 rounded-full"></div>
@@ -190,7 +226,7 @@ function App() {
                 <div className="space-y-2">
                   <div className="flex justify-between">
                     <span>Arabe</span>
-                    <span>95%</span>
+                    <span>100%</span>
                   </div>
                   <div className="h-2 bg-gray-200 rounded-full">
                     <div className="h-full w-[95%] bg-blue-600 rounded-full"></div>
@@ -227,7 +263,7 @@ function App() {
             <div className="glass-card p-6 rounded-xl">
               <h3 className="text-2xl font-bold mb-6">Informations de contact</h3>
               <div className="space-y-4">
-                <a 
+                <a
                   href="mailto:Dahmanichahrazad4@gmail.com"
                   className="flex items-center gap-4 p-4 bg-white rounded-lg hover:shadow-md transition-all"
                 >
@@ -239,7 +275,7 @@ function App() {
                     <p className="text-gray-600">Dahmanichahrazad4@gmail.com</p>
                   </div>
                 </a>
-                <a 
+                <a
                   href="tel:0760512526"
                   className="flex items-center gap-4 p-4 bg-white rounded-lg hover:shadow-md transition-all"
                 >
@@ -251,7 +287,7 @@ function App() {
                     <p className="text-gray-600">07 60 51 25 26</p>
                   </div>
                 </a>
-                <a 
+                <a
                   href="https://linkedin.com/in/chahrazad-dahmani"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -263,6 +299,33 @@ function App() {
                   <div>
                     <p className="font-medium">LinkedIn</p>
                     <p className="text-gray-600">linkedin.com/in/chahrazad-dahmani</p>
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/Chahrazad650"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 bg-white rounded-lg hover:shadow-md transition-all"
+                >
+                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="text-blue-600"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M12 1C5.93 1 1 5.93 1 12c0 4.86 3.16 8.97 7.56 10.43.55.1.75-.24.75-.53v-1.86c-3.07.67-3.72-1.48-3.72-1.48-.5-1.28-1.22-1.62-1.22-1.62-1-.69.08-.68.08-.68 1.1.08 1.67 1.13 1.67 1.13.98 1.67 2.57 1.18 3.2.9.1-.71.38-1.18.68-1.45-2.45-.28-5.02-1.23-5.02-5.47 0-1.21.43-2.2 1.13-2.97-.12-.28-.49-1.42.11-2.95 0 0 .92-.29 3.01 1.13A10.5 10.5 0 0 1 12 6.8c.93.01 1.87.13 2.74.38 2.09-1.42 3.01-1.13 3.01-1.13.6 1.53.23 2.67.11 2.95.7.77 1.13 1.76 1.13 2.97 0 4.25-2.57 5.18-5.02 5.46.39.33.73.98.73 1.97v2.92c0 .3.2.64.76.53A10.997 10.997 0 0 0 23 12c0-6.07-4.93-11-11-11z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="font-medium">GitHub</p>
+                    <p className="text-gray-600">github.com/Chahrazad650</p>
                   </div>
                 </a>
               </div>
@@ -279,7 +342,7 @@ function App() {
                     type="text"
                     id="name"
                     value={contactForm.name}
-                    onChange={(e) => setContactForm({...contactForm, name: e.target.value})}
+                    onChange={(e) => setContactForm({ ...contactForm, name: e.target.value })}
                     className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     required
                   />
@@ -292,7 +355,7 @@ function App() {
                     type="email"
                     id="email"
                     value={contactForm.email}
-                    onChange={(e) => setContactForm({...contactForm, email: e.target.value})}
+                    onChange={(e) => setContactForm({ ...contactForm, email: e.target.value })}
                     className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     required
                   />
@@ -304,7 +367,7 @@ function App() {
                   <textarea
                     id="project"
                     value={contactForm.projectDescription}
-                    onChange={(e) => setContactForm({...contactForm, projectDescription: e.target.value})}
+                    onChange={(e) => setContactForm({ ...contactForm, projectDescription: e.target.value })}
                     className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     rows={4}
                     required

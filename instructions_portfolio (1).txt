@@ -1,0 +1,10 @@
+Instructions pour exécuter le portfolio :
+
+- Ouvre un terminal.
+- Va dans le dossier du projet (exemple : cd Portfolio).
+- Installe les dépendances avec : npm install
+- Lance le serveur avec : npm run dev
+- Ouvre ton navigateur et va sur l'adresse affichée (généralement http://localhost:5173)
+
+Merci d’avoir visité mon portfolio !
+DAHMANI Chahrazad 
